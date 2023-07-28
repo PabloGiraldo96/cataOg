@@ -1,0 +1,63 @@
+.card-container {
+background-color: #222;
+display: flex;
+justify-content:center;
+}
+
+.card {
+  text-align: center;
+  font-family: 'Poppins', sans-serif; 
+  padding: 1vw;
+  margin: 3vw;
+  width: 19vw;
+  height: 20vw;
+  color: #fff;
+  border-radius: 50px;
+  background: #171717;
+  box-shadow:  5px 5px 30px #141414,
+             -5px -5px 30px #1a1a1a;
+}
+
+.card h2 {
+  font-size: 2vw;
+  font-weight: bold;
+  margin-bottom: 2vw;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card li {
+  font-size: 1.2vw;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Estilos específicos para dispositivos con un ancho máximo de 768px */
+
+.card-container{
+display: block;
+}
+
+.card {
+  position: relative;
+  left: 10vw;
+  margin-bottom: 5vw;
+  width: 75vw;
+  height: 110vw;
+}
+
+.card h2 {
+ font-size: 8vw;
+ margin-bottom: 6vw;
+ margin-top: 5vw;
+}
+
+.card li{
+ font-size: 5vw;
+ margin-bottom: 5vw;
+}
+
+}
